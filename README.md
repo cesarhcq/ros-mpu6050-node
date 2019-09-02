@@ -34,6 +34,8 @@ linear_acceleration:
 ---
 ````		    
 
+![mpu6050 - electric schematic](mpu-eletric.png)
+
 TODOS
 * no tf support at all, at very least some kind of zeroing service call would be nice... (also set frame_id)
 * no handling of sensor noise (though perhaps better to include directly in filter using this for tracking actual rover)
